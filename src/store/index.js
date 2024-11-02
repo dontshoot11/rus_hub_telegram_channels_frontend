@@ -4,7 +4,7 @@ export const dataStore = writable([]);
 export const searchQuery = writable("");
 
 export async function fetchData() {
-  const response = await fetch("/data.json");
+  const response = await fetch("data.json");
   if (response.ok) {
     const data = await response.json();
     dataStore.update(() => data);
