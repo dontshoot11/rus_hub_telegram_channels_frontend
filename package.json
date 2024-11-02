@@ -4,6 +4,7 @@
     "build": "npx astro build"
   },
   "dependencies": {
+    "astro-relative-links": "^0.4.0",
     "astro-x-svelte-static-pages-generator": "^0.0.4",
     "install": "^0.13.0",
     "npm": "^10.9.0"
