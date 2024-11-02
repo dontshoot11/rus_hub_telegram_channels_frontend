@@ -1,0 +1,14 @@
+{
+  "extends": "astro-x-svelte-static-pages-generator/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@ui-kit/*": ["src/ui-kit/*"],
+      "@store": ["src/store/index.js"],
+      "@helpers/*": ["src/helpers/*"],
+      "@components/*": ["src/components/*"],
+      "@translations/*": ["src/translations/*"],
+      "@const": ["src/const/const.js"]
+    }
+  }
+}

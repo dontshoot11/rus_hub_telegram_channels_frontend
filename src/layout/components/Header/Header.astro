@@ -1,0 +1,16 @@
+---
+import Link from "@components/Link/Link.svelte";
+import { getLangSettings } from "@translations/translationSettings";
+import { ADMIN_CONTACT } from "@const";
+import styles from "./style.module.css";
+
+const { t } = getLangSettings(Astro.url);
+---
+
+<header class={styles.header}>
+  <div class="container">
+    <div class={styles.headerContainer}>
+      <Link href={ADMIN_CONTACT} flexible={false} text={t.contact} />
+    </div>
+  </div>
+</header>

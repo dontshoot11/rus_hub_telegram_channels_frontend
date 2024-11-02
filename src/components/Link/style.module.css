@@ -1,0 +1,15 @@
+.link {
+  height: 35px;
+  width: 204px;
+  color: var(--bg-beta);
+  background-color: var(--btn-color);
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease, filter 0.3s ease;
+
+  &:hover {
+    filter: brightness(1.1);
+  }
+}

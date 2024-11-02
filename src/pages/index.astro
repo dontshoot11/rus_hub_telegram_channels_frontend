@@ -1,0 +1,11 @@
+---
+import Layout from "src/layout/Layout.astro";
+import Search from "@components/Search/Search.svelte";
+import { getLangSettings } from "@translations/translationSettings";
+
+const { t } = getLangSettings(Astro.url);
+---
+
+<Layout title={t.title}>
+  <Search client:only="svelte" placeholder={t.search_placeholder} />
+</Layout>
