@@ -3,5 +3,8 @@ import svelte from "@astrojs/svelte";
 // https://astro.build/config
 export default defineConfig({
   site: "https://dontshoot11.github.io",
+  build: {
+    assets: "assets",
+  },
   integrations: [svelte()],
 });
