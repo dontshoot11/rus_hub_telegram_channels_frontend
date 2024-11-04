@@ -2,7 +2,7 @@ import { writable, derived } from "svelte/store";
 
 export const dataStore = writable([]);
 export const searchQuery = writable("");
-export const displayLimit = writable();
+export const displayLimit = writable(10); // Начальный лимит
 
 export async function fetchData() {
   const response = await fetch("data.json");
@@ -14,25 +14,6 @@ export async function fetchData() {
     console.error("Failed to fetch data:", response.statusText);
   }
 }
-
-function setInitialLimit() {
-  if (window.innerWidth >= 1240) {
-    displayLimit.set(20);
-    return;
-  }
-  if (window.innerWidth >= 960) {
-    displayLimit.set(15);
-    return;
-  }
-  if (window.innerWidth >= 600) {
-    displayLimit.set(10);
-    return;
-  }
-
-  displayLimit.set(5);
-}
-
-setInitialLimit();
 
 export const filteredData = derived(
   [dataStore, searchQuery, displayLimit],

@@ -1,5 +1,4 @@
 <script>
-  import { onMount } from "svelte";
   import { filteredData } from "@store";
   import SearchCard from "./components/SearchCard/SearchCard.svelte";
   import styles from "./style.module.css";
