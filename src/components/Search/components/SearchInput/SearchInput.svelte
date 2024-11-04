@@ -8,8 +8,6 @@
   $: searchQuery.set(query);
 </script>
 
-<div class="container">
-  <form class={styles.form} on:submit|preventDefault>
-    <input {placeholder} bind:value={query} type="text" />
-  </form>
-</div>
+<form class={styles.form} on:submit|preventDefault>
+  <input class={styles.input} {placeholder} bind:value={query} type="text" />
+</form>

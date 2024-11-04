@@ -1,26 +1,33 @@
 <script>
   import { onMount, afterUpdate } from "svelte";
-  import { filteredData } from "@store";
+  import { throttle } from "astro-x-svelte-static-pages-generator";
   import styles from "./style.module.css";
 
   export let item;
 
   let cardElement;
 
+  const setRowSpans = () => {
+    const gridContainer = cardElement && cardElement.parentElement;
+    if (gridContainer) {
+      gridContainer.querySelectorAll(`.${styles.card}`).forEach(setRowSpan);
+    }
+  };
+
   const setRowSpan = (element) => {
     const cardHeight = element.offsetHeight;
     element.style.gridRowEnd = `span ${cardHeight + 16}`;
   };
 
+  const throttledSetRowSpans = throttle(() => setRowSpans(), 200);
+
   onMount(() => {
     setRowSpan(cardElement);
+    window.addEventListener("resize", throttledSetRowSpans);
   });
 
   afterUpdate(() => {
-    const gridContainer = cardElement.parentElement;
-    if (gridContainer) {
-      gridContainer.querySelectorAll(`.${styles.card}`).forEach(setRowSpan);
-    }
+    setRowSpans();
   });
 </script>
 

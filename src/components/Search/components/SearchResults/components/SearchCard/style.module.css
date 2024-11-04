@@ -2,10 +2,16 @@
   padding: 1em;
   break-inside: avoid;
   background: var(--bg-beta);
-  border-radius: 5px;
+  border-radius: 16px;
   height: fit-content;
   text-align: center;
+  border: 4px solid var(--tg-blue);
+  transition: box-shadow 200ms ease;
   &.premium {
+    border-color: var(--accent-premium);
+    .image {
+      border: 4px solid var(--accent-premium);
+    }
   }
 
   &:hover {
@@ -23,6 +29,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  margin-bottom: 8px;
 }
 
 .heading {

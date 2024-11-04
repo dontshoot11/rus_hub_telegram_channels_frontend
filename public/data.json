@@ -57,5 +57,209 @@
     "name": "Продам гараж",
     "premium": true,
     "url": "https://t.me/volna_srbjia_pigs"
+  },
+  {
+    "description": "Птицы – символ свободы и грации, они всегда радуют глаз своим полетом и песнями. Они могут стать верными друзьями и помощниками в уходе за домом, наполняя его гармонией.",
+    "image": "https://example.com/bird_image.jpg",
+    "name": "Српска птица",
+    "premium": false,
+    "url": "https://t.me/volna_srbjia_birds"
+  },
+  {
+    "description": "Кролики – милые и игривые питомцы, которые любят внимание и заботу. Они легко приручаются и дарят радость своим владельцам.",
+    "image": "https://example.com/rabbit_image.jpg",
+    "name": "Српски зец",
+    "premium": true,
+    "url": "https://t.me/volna_srbjia_rabbits"
+  },
+  {
+    "description": "Хомяки – маленькие, но очень активные животные, они создают уют в доме и всегда готовы к игре.",
+    "image": "https://example.com/hamster_image.jpg",
+    "name": "Српски хрчак",
+    "premium": false,
+    "url": "https://t.me/volna_srbjia_hamsters"
+  },
+  {
+    "description": "Еноты – умные и любопытные животные с яркой внешностью и харизматичным поведением.",
+    "image": "https://example.com/raccoon_image.jpg",
+    "name": "Српски ракун",
+    "premium": true,
+    "url": "https://t.me/volna_srbjia_raccoons"
+  },
+  {
+    "name": "Српски медвед",
+    "premium": false,
+    "url": "https://t.me/volna_srbjia_bears"
+  },
+  {
+    "description": "Лисы – грациозные и независимые животные, обладающие хитростью и шармом.",
+    "image": "https://example.com/fox_image.jpg",
+    "name": "Српска лисица",
+    "premium": true,
+    "url": "https://t.me/volna_srbjia_foxes"
+  },
+  {
+    "description": "Рыбы – прекрасные и тихие питомцы, которые успокаивают и радуют своей красотой.",
+    "image": "https://example.com/fish_image.jpg",
+    "name": "Српска риба",
+    "premium": false,
+    "url": "https://t.me/volna_srbjia_fish"
+  },
+  {
+    "description": "Козы – дружелюбные и забавные животные, легко адаптирующиеся к любым условиям.",
+    "image": "https://example.com/goat_image.jpg",
+    "name": "Српска коза",
+    "premium": false,
+    "url": "https://t.me/volna_srbjia_goats"
+  },
+  {
+    "description": "Олени – символы грации и силы, они украшают любой природный пейзаж своим присутствием.",
+    "image": "https://example.com/deer_image.jpg",
+    "name": "Српски јелен",
+    "premium": true,
+    "url": "https://t.me/volna_srbjia_deers"
+  },
+  {
+    "description": "Верблюды – животные пустыни, выносливые и привыкшие к суровым условиям. Они символизируют стойкость и силу.",
+    "image": "https://example.com/camel_image.jpg",
+    "name": "Српски камила",
+    "premium": false,
+    "url": "https://t.me/volna_srbjia_camels"
+  },
+  {
+    "name": "Српски орел",
+    "premium": true,
+    "url": "https://t.me/volna_srbjia_eagles"
+  },
+  {
+    "description": "Лошади – сильные и грациозные животные, символизирующие свободу и силу духа.",
+    "image": "https://example.com/horse_image.jpg",
+    "name": "Српски коњ",
+    "premium": true,
+    "url": "https://t.me/volna_srbjia_horses"
+  },
+  {
+    "description": "Змеи – экзотические и загадочные животные, которые привлекают своим уникальным поведением.",
+    "image": "https://example.com/snake_image.jpg",
+    "name": "Српска змија",
+    "premium": false,
+    "url": "https://t.me/volna_srbjia_snakes"
+  },
+  {
+    "description": "Лемуры – уникальные и активные животные, которые обитают на острове Мадагаскар.",
+    "image": "https://example.com/lemur_image.jpg",
+    "name": "Српски лемур",
+    "premium": true,
+    "url": "https://t.me/volna_srbjia_lemurs"
+  },
+  {
+    "description": "Пауки – небольшие, но очень полезные животные, играющие важную роль в экосистеме.",
+    "image": "https://example.com/spider_image.jpg",
+    "name": "Српски паук",
+    "premium": false,
+    "url": "https://t.me/volna_srbjia_spiders"
+  },
+  {
+    "description": "Совы – ночные хищники, символизирующие мудрость и таинственность.",
+    "image": "https://example.com/owl_image.jpg",
+    "name": "Српска сова",
+    "premium": false,
+    "url": "https://t.me/volna_srbjia_owls"
+  },
+  {
+    "name": "Српски вук",
+    "premium": true,
+    "url": "https://t.me/volna_srbjia_wolves"
+  },
+  {
+    "description": "Пингвины – необычные птицы, обитающие в холодных районах и вызывающие симпатию своим забавным внешним видом.",
+    "image": "https://example.com/penguin_image.jpg",
+    "name": "Српски пингвин",
+    "premium": true,
+    "url": "https://t.me/volna_srbjia_penguins"
+  },
+  {
+    "description": "Кенгуру – символ Австралии, они известны своей выносливостью и уникальным способом передвижения.",
+    "image": "https://example.com/kangaroo_image.jpg",
+    "name": "Српски кенгур",
+    "premium": false,
+    "url": "https://t.me/volna_srbjia_kangaroos"
+  },
+  {
+    "description": "Медоеды – маленькие, но храбрые и выносливые животные, известные своим смелым характером.",
+    "image": "https://example.com/honey_badger_image.jpg",
+    "name": "Српски медојед",
+    "premium": false,
+    "url": "https://t.me/volna_srbjia_honey_badgers"
+  },
+  {
+    "description": "Недвижимость в Белграде — уникальные квартиры и дома в историческом центре и современных районах города, подходящие как для проживания, так и для инвестиций.",
+    "image": "https://example.com/belgrade_real_estate.jpg",
+    "name": "Белградская недвижимость",
+    "premium": true,
+    "url": "https://t.me/volna_srbjia_realestate"
+  },
+  {
+    "description": "Просторные квартиры в Новом Саде с панорамными видами на Дунай. Идеальны для семей и тех, кто ценит комфорт.",
+    "image": "https://example.com/novisad_apartments.jpg",
+    "name": "Квартиры в Новом Саде",
+    "premium": false,
+    "url": "https://t.me/volna_srbjia_novisad"
+  },
+  {
+    "description": "Инвестиционные предложения на рынке недвижимости Сербии. Квартиры, дома, офисы — отличная возможность для долгосрочного вложения.",
+    "image": "https://example.com/invest_realestate.jpg",
+    "name": "Инвестиции в недвижимость",
+    "premium": true,
+    "url": "https://t.me/volna_srbjia_investments"
+  },
+  {
+    "description": "Элитная недвижимость в Сербии — эксклюзивные дома и виллы для тех, кто ищет роскошь и приватность.",
+    "image": "https://example.com/luxury_villa.jpg",
+    "name": "Элитная недвижимость",
+    "premium": true,
+    "url": "https://t.me/volna_srbjia_luxury"
+  },
+  {
+    "description": "Коммерческая недвижимость для бизнеса — офисные помещения и торговые площади в ключевых районах Сербии.",
+    "image": "https://example.com/commercial_property.jpg",
+    "name": "Коммерческая недвижимость",
+    "premium": false,
+    "url": "https://t.me/volna_srbjia_commercial"
+  },
+  {
+    "description": "Актуальный курс доллара к сербскому динару с регулярными обновлениями. Узнайте, как выгодно обменять валюту.",
+    "image": "https://example.com/usd_dinar_exchange.jpg",
+    "name": "Курс доллара",
+    "premium": false,
+    "url": "https://t.me/volna_srbjia_usd"
+  },
+  {
+    "description": "Курс евро в Сербии — следите за изменениями курса и получайте советы по выгодному обмену.",
+    "image": "https://example.com/euro_exchange.jpg",
+    "name": "Курс евро",
+    "premium": false,
+    "url": "https://t.me/volna_srbjia_euro"
+  },
+  {
+    "description": "Лучшие курсы обмена криптовалют в Сербии. Узнайте, где выгодно купить или продать биткоин и другие криптовалюты.",
+    "image": "https://example.com/crypto_exchange.jpg",
+    "name": "Обмен криптовалют",
+    "premium": true,
+    "url": "https://t.me/volna_srbjia_crypto"
+  },
+  {
+    "description": "Удобный сервис для обмена валют в Сербии. Моментальные переводы и доступные курсы.",
+    "image": "https://example.com/currency_exchange_service.jpg",
+    "name": "Обмен валют",
+    "premium": false,
+    "url": "https://t.me/volna_srbjia_exchange"
+  },
+  {
+    "description": "Все о курсе юаня к сербскому динару. Следите за изменениями курса и получайте советы по обмену.",
+    "image": "https://example.com/yuan_exchange.jpg",
+    "name": "Курс юаня",
+    "premium": true,
+    "url": "https://t.me/volna_srbjia_yuan"
   }
 ]
