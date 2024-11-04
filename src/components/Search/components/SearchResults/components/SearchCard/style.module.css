@@ -19,6 +19,11 @@
   }
 }
 
+.buttonWrap {
+  break-inside: avoid;
+  height: fit-content;
+}
+
 .image {
   border-radius: 50%;
   height: 100px;

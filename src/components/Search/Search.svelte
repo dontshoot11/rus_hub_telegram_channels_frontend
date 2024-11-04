@@ -5,7 +5,8 @@
   import SearchInput from "./components/SearchInput/SearchInput.svelte";
   import SearchResults from "./components/SearchResults/SearchResults.svelte";
 
-  export let placeholder;
+  export let inputPlaceholder;
+  export let donateText;
 
   import styles from "./style.module.css";
 
@@ -32,7 +33,7 @@
 
 <div class={styles.wrapper}>
   <div class="container">
-    <SearchInput {placeholder} />
-    <SearchResults />
+    <SearchInput {inputPlaceholder} />
+    <SearchResults {donateText} />
   </div>
 </div>

@@ -1,5 +1,6 @@
 {
   "title": "Rus-HUB telegram channels",
   "contact": "CONTACT",
-  "search_placeholder": "search"
+  "search_input_placeholder": "search",
+  "donate_text": "DONATE"
 }
