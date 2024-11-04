@@ -2,7 +2,7 @@ import { writable, derived } from "svelte/store";
 
 export const dataStore = writable([]);
 export const searchQuery = writable("");
-export const displayLimit = writable(10); // Начальный лимит
+export const displayLimit = writable(10);
 
 export async function fetchData() {
   const response = await fetch("data.json");
