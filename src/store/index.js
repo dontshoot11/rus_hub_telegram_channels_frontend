@@ -4,6 +4,20 @@ export const dataStore = writable([]);
 export const searchQuery = writable("");
 export const displayLimit = writable(10);
 
+function setInitialLimit() {
+  if (window.innerWidth >= 1240) {
+    displayLimit.set(20);
+  } else if (window.innerWidth >= 960) {
+    displayLimit.set(15);
+  } else if (window.innerWidth >= 600) {
+    displayLimit.set(10);
+  } else {
+    displayLimit.set(5);
+  }
+}
+
+setInitialLimit();
+
 export async function fetchData() {
   const response = await fetch("data.json");
   if (response.ok) {
