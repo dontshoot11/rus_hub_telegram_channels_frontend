@@ -34,8 +34,12 @@ export const filteredData = derived(
   ([$dataStore, $searchQuery, $displayLimit]) => {
     const filtered = $dataStore.filter(
       (item) =>
-        item.name.toLowerCase().includes($searchQuery.toLowerCase()) ||
-        item.url.toLowerCase().includes($searchQuery.toLowerCase()) ||
+        (item.name &&
+          item.name.toLowerCase().includes($searchQuery.toLowerCase())) ||
+        (item.url &&
+          item.url.toLowerCase().includes($searchQuery.toLowerCase())) ||
+        (item.tags &&
+          item.tags.toLowerCase().includes($searchQuery.toLowerCase())) ||
         (item.description &&
           item.description.toLowerCase().includes($searchQuery.toLowerCase()))
     );
