@@ -7,9 +7,5 @@ const { t } = getLangSettings(Astro.url);
 ---
 
 <Layout title={t.title}>
-  <Search
-    client:only="svelte"
-    donateText={t.donate_text}
-    inputPlaceholder={t.search_input_placeholder}
-  />
+  <Search client:only="svelte" inputPlaceholder={t.search_input_placeholder} />
 </Layout>

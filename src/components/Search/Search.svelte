@@ -6,7 +6,6 @@
   import SearchResults from "./components/SearchResults/SearchResults.svelte";
 
   export let inputPlaceholder;
-  export let donateText;
 
   import styles from "./style.module.css";
 
@@ -34,6 +33,6 @@
 <div class={styles.wrapper}>
   <div class="container">
     <SearchInput {inputPlaceholder} />
-    <SearchResults {donateText} />
+    <SearchResults />
   </div>
 </div>
