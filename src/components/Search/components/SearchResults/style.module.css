@@ -11,8 +11,4 @@
   @media (min-width: 960px) {
     grid-template-columns: repeat(3, minmax(200px, 1fr));
   }
-
-  @media (min-width: 1240px) {
-    grid-template-columns: repeat(4, minmax(200px, 1fr));
-  }
 }

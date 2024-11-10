@@ -44,4 +44,8 @@
 .desc {
   font-size: 14px;
   color: var(--text-color-beta);
+  a {
+    text-decoration: underline;
+    cursor: pointer;
+  }
 }

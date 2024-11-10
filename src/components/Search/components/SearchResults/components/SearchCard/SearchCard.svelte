@@ -15,6 +15,14 @@
     }
   };
 
+  const wrapLinks = (input) => {
+    const urlPattern = /(https?:\/\/[^\s]+)/g;
+
+    return input.replace(urlPattern, (url) => {
+      return `<br><a href="${url}" target="_blank" rel="noopener noreferrer">${url}</a>`;
+    });
+  };
+
   const setRowSpan = (element) => {
     const cardHeight = element.offsetHeight;
     element.style.gridRowEnd = `span ${cardHeight + 16}`;
@@ -42,6 +50,6 @@
     <h2 class={styles.heading}>{item.name}</h2>
   {/if}
   {#if item.description}
-    <p class={styles.desc}>{item.description}</p>
+    <p class={styles.desc}>{@html wrapLinks(item.description)}</p>
   {/if}
 </a>
