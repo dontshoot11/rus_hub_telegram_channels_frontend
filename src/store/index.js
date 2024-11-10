@@ -19,7 +19,8 @@ function setInitialLimit() {
 setInitialLimit();
 
 export async function fetchData() {
-  const response = await fetch("http://18.193.109.68/");
+  // const response = await fetch("http://18.193.109.68/");
+  const response = await fetch("./data.json");
   if (response.ok) {
     const data = await response.json();
     const shuffledData = data.sort(() => 0.5 - Math.random());
