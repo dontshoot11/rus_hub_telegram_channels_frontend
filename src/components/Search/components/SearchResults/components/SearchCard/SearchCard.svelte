@@ -1,10 +1,10 @@
 <script>
-  import { onMount, afterUpdate } from "svelte";
+  import { onMount } from "svelte";
   import { throttle } from "astro-x-svelte-static-pages-generator";
 
   import styles from "./style.module.css";
 
-  export let item;
+  let { item } = $props();
 
   let cardElement;
 
@@ -35,8 +35,8 @@
     window.addEventListener("resize", throttledSetRowSpans);
   });
 
-  afterUpdate(() => {
-    setRowSpans();
+  $effect(() => {
+    item && setRowSpans();
   });
 </script>
 

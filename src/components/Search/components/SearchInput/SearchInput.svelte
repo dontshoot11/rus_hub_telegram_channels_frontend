@@ -1,18 +1,21 @@
 <script>
-  export let inputPlaceholder;
   import { searchQuery } from "@store";
   import styles from "./style.module.css";
 
-  let query = "";
+  let { inputPlaceholder } = $props();
 
-  $: searchQuery.set(query);
+  let query = $state("");
+
+  $effect(() => {
+    query && searchQuery.set(query);
+  });
 </script>
 
-<form class={styles.form} on:submit|preventDefault>
+<div class={styles.inputWrap}>
   <input
     class={styles.input}
     placeholder={inputPlaceholder}
     bind:value={query}
     type="text"
   />
-</form>
+</div>

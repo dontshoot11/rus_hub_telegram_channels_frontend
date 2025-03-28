@@ -5,7 +5,7 @@
   import SearchInput from "./components/SearchInput/SearchInput.svelte";
   import SearchResults from "./components/SearchResults/SearchResults.svelte";
 
-  export let inputPlaceholder;
+  let { inputPlaceholder } = $props();
 
   import styles from "./style.module.css";
 
